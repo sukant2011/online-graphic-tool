@@ -1,0 +1,127 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Plaster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Plaster'), local('Plaster-Regular'), url(http://fonts.gstatic.com/s/plaster/v8/-n2k3MSUqSuzPE7M8DvDbfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Plaster';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Plaster'), local('Plaster-Regular'), url(http://fonts.gstatic.com/s/plaster/v8/Zh-WKr-VgJ8vp42dO2R9mw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Engagement';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Engagement'), local('Engagement-Regular'), url(http://fonts.gstatic.com/s/engagement/v5/IYnYh0uOiuydvYrbHKIjwfk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+ul { margin-left: 0; }
+label { 
+    cursor: default;
+    font-size: 11px;
+    font-weight: normal;
+    margin-bottom: 6px;
+    position: relative;
+    text-transform: uppercase;
+  }
+button.selected { font-weight: bold; vertical-align: top }
+textarea { font-family: monospace; }
+input[type=color] { width: 40px; padding: 0; margin: 0; height: 20px; position: relative; top: 2px;}
+input[type=radio] { margin-top: -3px; }
+
+.canvas-container { margin: 0 auto; border: 1px solid #aaa; }
+
+.svg-shapes { overflow: hidden; width: 450px; margin-left: 0; }
+.svg-shapes li { display: inline-block; margin-bottom: 5px; }
+
+.tabs li, .tabs li a { display: inline-block; }
+.btn-lock { margin-bottom: 3px; }
+
+#object-controls-pane { width: 450px }
+#bd-wrapper { overflow: hidden; position: relative; }
+#fps { position: absolute; left: 1px; top: 0; background: rgb(200,200,200); width: 70px; z-index: 1000; }
+#commands { float: left; font-size: 14px; margin-left: 15px; }
+#commands ul { list-style: none; padding-left: 0; }
+#complexity { clear: both; padding-top: 10px; }
+#color-opacity-controls { margin-bottom: 5px; }
+
+#text-controls { display: inline-block; vertical-align: top; margin-left: 10px; border: 1px dotted #ccc; padding: 10px; width: 220px; }
+#text-controls textarea { float: left; margin-right: 10px; }
+
+#text-controls-additional { display: inline-block; vertical-align: top; border: 1px dotted #ccc; padding: 10px; }
+#text-controls-additional button { vertical-align: top; display: block; margin-bottom: 7px; }
+
+#drawing-mode-options { margin-top: 5px; background: #ffc; padding: 5px; border: 1px solid #aaa; }
+#text { position: relative; width: 300px; height: 200px; }
+#text-cmd-linethrough { text-decoration: line-through; }
+#text-cmd-underline { text-decoration: underline; }
+#text-cmd-overline { text-decoration: overline; }
+#text-cmd-italic { font-style: italic; }
+#text-cmd-shadow { text-shadow: rgb(100,100,100) 1px 1px 3px; }
+
+#svg-console, #canvas-console, #json-console { width: 430px; height: 500px; display: block; }
+#mainContainer h2{text-align: center;}
+#mainContainer h3{margin-top: 0 !important; text-align: center;}
+.leftBlk i {
+    font-size: 32px;
+    padding:10px;
+}
+.leftBlk i:hover {
+    cursor: pointer;
+
+}
+.col-lg-12 > label {
+    float: left;
+}
+.toolbar-option {
+  display: block;
+  height: auto;
+  margin-bottom: 15px;
+  position: relative;
+}
+.toolbar-option .toolbar-option-label {
+  cursor: default;
+  font-size: 11px;
+  font-weight: normal;
+  margin-bottom: 6px;
+  position: relative;
+  text-transform: uppercase;
+}
+.toolbar-radio .toolbar-radio-inner {
+    background: #d6d6d6 none repeat scroll 0 0;
+    border: 1px solid #292929;
+    width: 67%;
+}
+.toolbar-radio .toolbar-radio-item.selected {
+  background: #888 none repeat scroll 0 0;
+}
+.toolbar-radio .toolbar-radio-item {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px;
+  text-align: center;
+}
+.padding0{
+  padding: 0;
+}
+.margin10{
+  margin: 10px 0; 
+}
+.fullWidth {
+    height: 30px !important;
+    top: 0 !important;
+    width: 100% !important;
+}
+.textBStyle a{
+    padding: 10px 29px;
+}
